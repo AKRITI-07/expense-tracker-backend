@@ -55,4 +55,4 @@ app.delete('/expenses/:id', (req, res) => {
 app.listen(3001, () => {
   console.log("Server running on http://localhost:3001");
 });
-require('dotenb').config();
+require('dotenv').config();
